@@ -35,8 +35,8 @@ class MergeSortTest {
         int[] expected = new int[]{0, 1};
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(nums);
-        assertArrayEquals(expected, nums);
+        int[] got = mergeSort.sort(nums);
+        assertArrayEquals(expected, got);
     }
 
     @Test
@@ -46,8 +46,8 @@ class MergeSortTest {
         int[] expected = new int[]{0, 1, 2};
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(nums);
-        assertArrayEquals(expected, nums);
+        int[] got = mergeSort.sort(nums);
+        assertArrayEquals(expected, got);
     }
 
     @Test
@@ -57,8 +57,8 @@ class MergeSortTest {
         int[] expected = new int[]{0, 1, 2, 4};
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(nums);
-        assertArrayEquals(expected, nums);
+        int[] got = mergeSort.sort(nums);
+        assertArrayEquals(expected, got);
     }
 
     @Test
@@ -68,8 +68,8 @@ class MergeSortTest {
         int[] expected = new int[]{0, 1, 2, 4, 6, 44, 99};
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(nums);
-        assertArrayEquals(expected, nums);
+        int[] got = mergeSort.sort(nums);
+        assertArrayEquals(expected, got);
     }
 
 
@@ -80,8 +80,8 @@ class MergeSortTest {
         int[] expected = new int[]{0, 1, 2, 4, 5, 6, 44, 63, 87, 99, 283};
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(nums);
-        assertArrayEquals(expected, nums);
+        int[] got = mergeSort.sort(nums);
+        assertArrayEquals(expected, got);
     }
 
 
